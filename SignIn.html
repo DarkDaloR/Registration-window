@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Создать аккаунт</h1>
+			<span> или используете ваши социальные сети</span>
+			<input type="text" placeholder="Имя" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="пароль" />
+			<button>Зарегистрироваться</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Вход в систему</h1>
+			<span>использовать существующий аккаунт</span>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Пароль" />
+			<a href="#">Забыли пароль?</a>
+			<button>Вход в систему</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Рады вашему возвращению</h1>
+				<p>Чтобы оставаться на связи введите необходимые данные</p>
+				<button class="ghost" id="signIn">Вход в систему</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Добро Пожаловать</h1>
+				<p>Введите свои данные для регистрации у нас</p>
+				<button class="ghost" id="signUp">Зарегистрироваться</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="swipe.js" charset="utf-8"></script>
+</body>
+
+</html>
